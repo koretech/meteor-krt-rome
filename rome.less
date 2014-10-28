@@ -1,0 +1,36 @@
+.rd-container {
+	font-family: "Helvetic Neue", "Helvetica", Arial;
+
+	padding: 0.65em 1em;
+	font-size: 1em;
+
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	outline: none;
+
+	color: rgba(0, 0, 0, 0.7);
+	border-radius: 0.3125em;
+
+	-webkit-transition: background-color 0.3s ease-out, -webkit-box-shadow 0.2s ease, border-color 0.2s ease;
+	-moz-transition: background-color 0.3s ease-out, box-shadow 0.2s ease, border-color 0.2s ease;
+	transition: background-color 0.3s ease-out, box-shadow 0.2s ease, border-color 0.2s ease;
+
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.rd-container table.rd-days {
+	.rd-days-head .rd-day-head {
+		padding: 0.5em 0.3125em;
+	}
+	.rd-days-body .rd-days-row .rd-day-body {
+		padding: 0.3125em 0.3125em;
+
+		&:hover {
+			background: darkgray;
+		}
+	}
+}
