@@ -19,7 +19,7 @@ Package.onUse(function(api){
 	], both);
 
 	api.addFiles([
-		'bower.json',
+		'smart.json',
 		'lib/rome/dist/rome.css',
 		'lib/rome/dist/rome.standalone.js',
 		'rome.less'
