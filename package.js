@@ -15,7 +15,7 @@ Package.onUse(function(api){
 		'templating',
 		'underscore',
 		'less',
-		'mquandalle:bower@0.1.11'
+		'mquandalle:bower@1.3.12_2'
 	], both);
 
 	api.addFiles([
