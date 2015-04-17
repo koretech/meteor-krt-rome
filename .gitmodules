@@ -1,3 +1,4 @@
 [submodule "lib/rome"]
 	path = lib/rome
 	url = https://github.com/bevacqua/rome.git
+	branch = v1.2.0
