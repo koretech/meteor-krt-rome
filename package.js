@@ -3,7 +3,7 @@ var client = 'client', server = 'server', both = ['client', 'server'];
 Package.describe({
 	name: 'krt:rome',
 	summary: 'Rome Date and Time Picker',
-	version: '1.2.0_5',
+	version: '2.1.22_1',
 	git: 'https://github.com/koretech/meteor-krt-rome.git',
 	documentation: null
 });
@@ -15,9 +15,9 @@ Package.onUse(function(api){
 	api.use([
 		'templating',
 		'underscore',
-		'less',
-		'krt:core@0.1.3',
-		'momentjs:moment@2.10.3'
+		'flemay:less-autoprefixer@1.1.0',
+		'krt:core@0.1.4',
+		'momentjs:moment@2.10.6'
 	], both);
 
 	api.imply([
